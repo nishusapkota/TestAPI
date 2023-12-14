@@ -17,7 +17,7 @@ return new class extends Migration
             $table->text('description');
             $table->string('image');
             $table->integer('price');
-            $table->boolean('status')->default('0');
+            $table->boolean('status')->default(0);
             $table->timestamps();
         });
     }
